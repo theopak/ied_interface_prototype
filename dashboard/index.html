@@ -11,6 +11,11 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
+    <!-- Set Apple icons for when prototype is saved to home screen -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png">
+
     <!-- Include the compiled Ratchet CSS -->
     <link rel="stylesheet" href="ratchet.css">
 
@@ -51,51 +56,24 @@
   <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
   <div class="content">
 
-    <ul class="list inset">
-      <li>
-        <a href="http://maker.github.com/ratchet/">
-          <strong>Ratchet documentation</strong>
-          <span class="chevron"></span>
-        </a>
-      </li>
-      <li>
-        <a href="http://www.github.com/maker/ratchet/">
-          <strong>Ratchet on Github</strong>
-          <span class="chevron"></span>
-        </a>
-      </li>
-      <li>
-        <a href="https://groups.google.com/forum/#!forum/goratchet">
-          <strong>Ratchet Google group</strong>
-          <span class="chevron"></span>
-        </a>
-      </li>
-      <li>
-        <a href="http://www.twitter.com/GoRatchet">
-          <strong>Ratchet on Twitter</strong>
-          <span class="chevron"></span>
-        </a>
-      </li>
-    </ul>
-
     <ul class="list">
       <li class="list-divider">Recent Incidents</li>
       <li>
-        <a href="incidents.html">
+        <a href="incidents.html" data-transition="slide-in">
           <strong>Thur 3/21/2013 &mdash; 10:08 am</strong>
           <p>Suspicious activity on shelf 2A.</p>
           <span class="chevron"></span>
         </a>
       </li>
       <li>
-        <a href="incidents.html">
+        <a href="incidents.html" data-transition="slide-in">
           <strong>Fri 3/22/2013 &mdash; 9:16pm</strong>
           <p>Suspicious activity on shelf 1D.</p>
           <span class="chevron"></span>
         </a>
       </li>
       <li>
-        <a href="incidents.html">
+        <a href="incidents.html" data-transition="slide-in">
           <strong>Fri 3/22/2013 &mdash; 11:23pm</strong>
           <p>Suspicious activity on shelf 2A. Manager reported $8.99 lost from theft of 1 item.</p>
           <span class="chevron"></span>
@@ -103,7 +81,7 @@
         </a>
       </li>
       <li>
-        <a href="incidents.html">
+        <a href="incidents.html" data-transition="slide-in">
           View More Incidents...
           <span class="chevron"></span>
         </a>
