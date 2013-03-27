@@ -58,13 +58,13 @@
   <nav class="bar-standard bar-header-secondary">
     <ul class="segmented-controller">
       <li class="active">
-        <a href="#">Camera 1</a>
+        <a href="#cam1">Camera 1</a>
       </li>
       <li>
-        <a href="#">Camera 2</a>
+        <a href="#cam2">Camera 2</a>
       </li>
       <li>
-        <a href="#">Camera 3</a>
+        <a href="#cam3">Camera 3</a>
       </li>
     </ul>
   </nav>
@@ -72,26 +72,23 @@
   <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
   <div class="content">
 
-    <div class="inset slider">
-      <ul>
-        <li>
-          <img src="http://placehold.it/320x240.png&amp;text=Camera%201">
-          <span class="slide-text">← Slide me</span>
-        </li>
-        <li>
-          <img src="http://placehold.it/320x240.png&amp;text=Camera%202">
-        </li>
-        <li>
-          <img src="http://placehold.it/320x240.png&amp;text=Camera%203">
-        </li>
-      </ul>
-    </div>
+    <ul class="list">
+      <li id="item1" class="segmented-controller-item active">
+        <img src="http://placehold.it/320x240.png&amp;text=Camera%201">
+      </li>
+      <li id="item2" class="segmented-controller-item">
+        <img src="http://placehold.it/320x240.png&amp;text=Camera%202">
+      </li>
+      <li id="item3" class="segmented-controller-item">
+        <img src="http://placehold.it/320x240.png&amp;text=Camera%203">
+      </li>
+    </ul>
 
     <form class="inset">
       <div class="input-group">
         <input type="text" placeholder="Tag video at this time">
-        <textarea rows="5" placeholder="Optional description..."></textarea>
-        <a class="button button-block">Save Video Tag</a>
+        <textarea rows="5" placeholder="Optional note..."></textarea>
+        <a class="button button-block">Save Tag</a>
       </div>
     </form>
 
